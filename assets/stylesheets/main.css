@@ -5,9 +5,9 @@ body {
 /* End of globals */
 
 /* START OF COVER */
-nav {
-  position: absolute;
-  background-color: rgba(100, 100, 100, 0.1)
+.cover {
+  min-height: 100vh;
+  background-color: transparent;
 }
 
 nav h5, nav a, nav a:hover {
@@ -29,6 +29,7 @@ nav button:focus {
 }
 
 #bg_shape {
+  position: absolute;
   background-color: rgba(100, 100, 100, 0.1);
   height: 75vh;
   -webkit-clip-path: polygon(0% 0%, 0% 75%, 150% 0%);
@@ -39,6 +40,10 @@ nav button:focus {
   font-weight: 500;
   font-size: 1.8rem;
   color: #334a63;
+}
+
+#no-bg {
+  background: transparent;
 }
 
 /* END OF COVER */
