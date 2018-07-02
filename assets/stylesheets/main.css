@@ -2,38 +2,43 @@
 body {
     font-family: Montserrat, sans-serif;
 }
-
-.text-block-title {
-    font-weight: 900;
-}
-
-.boldest {
-    font-weight: 900;
-}
-
-.bold {
-    font-weight: 300;
-}
 /* End of globals */
 
 /* START OF COVER */
+nav {
+  position: absolute;
+  background-color: rgba(100, 100, 100, 0.1)
+}
+
 nav h5, nav a, nav a:hover {
-  font-family: quicksand, montserrat, sans-serif;
-  color: gray;
-  display: inline;
+  color: black;
   margin-bottom: 0;
-  font-size: 0.8rem;
+  font-size: 0.85rem;
 }
 
-nav button {
-  color: gray;
-  font-size: 0.8rem;
+nav button:focus {
+  outline: none;
 }
 
-.navbar-toggler {
-    padding: 0;
-    font-size: 1rem;
-    border: none;
+.two-bars {
+  padding: 0;
+  border-top: 2px solid black;
+  border-bottom: 3px solid black;
+  width: 25px;
+  height: 10px;
+}
+
+#bg_shape {
+  background-color: rgba(100, 100, 100, 0.1);
+  height: 75vh;
+  -webkit-clip-path: polygon(0% 0%, 0% 75%, 150% 0%);
+  clip-path: polygon(0% 0%, 0% 75%, 150% 0%);
+}
+
+.text-block-title {
+  font-weight: 500;
+  font-size: 1.8rem;
+  color: #334a63;
 }
 
 /* END OF COVER */
