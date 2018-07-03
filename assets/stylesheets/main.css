@@ -1,16 +1,17 @@
 /* Globals */
 body {
-    font-family: Montserrat, sans-serif;
+  font-family: Montserrat, sans-serif;
+  color: #334a63;
+}
+
+i {
+  color: black;
 }
 /* End of globals */
 
 /* START OF COVER */
-.cover {
-  min-height: 100vh;
-  background-color: transparent;
-}
 
-nav h5, nav a, nav a:hover {
+h5, a, a:hover {
   color: black;
   margin-bottom: 0;
   font-size: 0.85rem;
@@ -39,6 +40,12 @@ nav button:focus {
 .text-block-title {
   font-weight: 500;
   font-size: 1.8rem;
+  color: #334a63;
+}
+
+.text-block-p {
+  line-height: 1.8;
+  font-size: 1.15rem;
   color: #334a63;
 }
 
