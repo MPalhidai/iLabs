@@ -223,36 +223,40 @@
             <div class="tile-6 col-2 m-2 p-2" id="tile"></div>
             <div class="tile-7 col-2 m-2 p-2" id="tile"></div>
             <div class="tile-8 col-2 m-2 p-2" id="tile"></div>
-            <div class="col-2 m-2 d-lg-flex d-none align-items-center align-self-center" id="tile">
+            <div class="col-2 m-2 p-2 d-lg-flex d-none align-items-center align-self-center" id="tile">
               <p class="text-block-p">Want to create great things together and be friends?</p>
             </div>
           </div>
 
           <div class="row justify-content-center py-5" id="form-row">
-            <!-- make div d-block if too small -->
-            <div class="col-2">
-              <h5 class="text-white hello">Say hello</h5>
+            <div class="col-lg-2 col-10 d-md-inline text-center">
+              <h5 class="text-white hello pb-5">Say hello</h5>
             </div>
-            <div class="col-8">
+            <div class="col-lg-8 col-10 d-md-inline">
               <form>
-                <div class="form-group d-inline">
-                  <p>My name is </p>
-                  <input class="name" action="index.html" method="post"></input>
-                  <p>. My email address </p>
-                  <input class="email" action="index.html" method="post"></input>
-                  <p> and phone number </p>
-                  <input class="email" action="index.html" method="post"></input>
-                  <br>
-                  <p>I want to work with iLabs on </p>
-                  <select class="custom-select" id="inputGroupSelect03">
-                    <option value="1">Application</option>
-                    <option value="2">Rebranding</option>
-                    <option value="3">Startup</option>
-                  </select>
-                  <p> project.</p>
+                <div class="row">
+                  <div class="col">
+                    <p>My name is </p>
+                    <input class="name" action="index.html" method="post"></input>
+                    <p>. My email address </p>
+                    <input class="email" action="index.html" method="post"></input>
+                    <p> and phone number </p>
+                    <input class="email" action="index.html" method="post"></input>
+                  </div>
                 </div>
-                <div class="form-group text-right">
-                  <button type="submit" id="submit">SEND</button>
+                <div class="row d-flex justify-content-between m-4">
+                  <div class="col-8">
+                    <p>I want to work with iLabs on </p>
+                    <select class="custom-select" id="inputGroupSelect03">
+                      <option value="1">Application</option>
+                      <option value="2">Rebranding</option>
+                      <option value="3">Startup</option>
+                    </select>
+                    <p> project.</p>
+                  </div>
+                  <div class="col-4 text-right">
+                    <button type="submit" id="submit">SEND</button>
+                  </div>
                 </div>
               </form>
             </div>
